@@ -1,4 +1,4 @@
-[[source]]
+[[[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
@@ -6,23 +6,11 @@ name = "pypi"
 [packages]
 django = "*"
 gunicorn = "*"
-python-decouple = "*"
-dj-database-url = "*"
-"psycopg2-binary" = "*"
-"django-s3-folder-storage" = "*"
-collectfast = "*"
-django-debug-toolbar = "*"
-sentry-sdk = "*"
-django-ordered-model = "*"
-ipython = "*"
-django-extensions = "*"
 
 [dev-packages]
-"flake8" = "*"
-pytest-cov = "*"
-codecov = "*"
-pytest-django = "*"
-model-mommy = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.10"
+#nova
+
