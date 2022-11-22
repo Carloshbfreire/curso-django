@@ -5,15 +5,14 @@ name = "pypi"
 
 [packages]
 django = "*"
-gunicorn = "*"
 django-database-url = "*"
 sentry-sdk = "*"
 python-decouple = "*"
+gunicorn = "*"
 
 [dev-packages]
 flake8 = "*"
 pytest-cov = "*"
-gunicorn = "*"
 
 [requires]
 python_version = "3.10"
