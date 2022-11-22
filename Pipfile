@@ -8,6 +8,7 @@ django = "*"
 gunicorn = "*"
 django-database-url = "*"
 sentry-sdk = "*"
+python-decouple = "*"
 
 [dev-packages]
 flake8 = "*"
